@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.login-box {
+    width: 850px;
+    min-height: 500px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    overflow: hidden;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section */
+
+.welcome-section {
+    width: 45%;
+
+    background: linear-gradient(135deg, #4facfe, #667eea);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 50px;
+}
+
+.welcome-section h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Right Section */
+
+.form-section {
+    width: 55%;
+    padding: 55px 50px;
+}
+
+.form-section h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Form */
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 13px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    margin-bottom: 20px;
+
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Options */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+
+    font-size: 14px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.remember input {
+    width: auto;
+    margin: 0;
+}
+
+.options a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 13px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #667eea;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5568d8;
+}
+
+/* Signup */
+
+.signup {
+    text-align: center;
+    margin-top: 25px;
+
+    color: #777;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
